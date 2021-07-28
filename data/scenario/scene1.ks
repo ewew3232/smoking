@@ -322,7 +322,6 @@
 
 *分岐
 
-[tb_hide_message_window  ]
 [glink  color="black"  storage="scene1.ks"  size="20"  text="→　先に泊まれる場所を探そう。【未実装】"  x="270"  y="200"  width=""  height=""  _clickable_img=""  target="*寄煙恋"  ]
 [glink  color="black"  storage="scene1.ks"  size="20"  text="→　先に夕飯を食べよう。"  x="270"  y="300"  target="*goldfish"  ]
 [s  ]
