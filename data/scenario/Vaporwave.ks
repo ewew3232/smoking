@@ -1,6 +1,20 @@
 [_tb_system_call storage=system/_Vaporwave.ks]
 
-[mask_off  time="2000"  effect="fadeOut"  ]
+*start
+
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_ptext_hide  time="1000"  ]
+[bg  time="1000"  method="crossfade"  storage="gure-.png"  ]
+[tb_ptext_show  x="160"  y="220"  size="80"  color="0xffffff"  time="1"  text="2049年&nbsp;11月&nbsp;11日"  face="sans-serif,'メイリオ'"  ]
+[mask_off  time="3000"  effect="fadeOut"  ]
+[bg  time="3000"  method="crossfade"  storage="ash.png"  ]
+[tb_ptext_hide  time="1"  ]
+[tb_ptext_show  x="160"  y="220"  size="80"  color="0x000000"  time="3000"  text="2050年&nbsp;01月&nbsp;04日"  face="sans-serif,'メイリオ'"  ]
+[wait  time="500"  ]
+[mask  time="3000"  effect="fadeIn"  color="0x000000"  ]
+[tb_ptext_hide  time="1000"  ]
+[bg  time="1000"  method="crossfade"  storage="菜園.jpg"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=2 ]
 最後のプランターに種を蒔き終えた。[l][r]
@@ -26,10 +40,11 @@
 [_tb_end_text]
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_hide_message_window  ]
 [cm  ]
 [bg  time="3000"  method="crossfade"  storage="gure-.png"  ]
 [mask_off  time="1500"  effect="fadeOut"  ]
-[tb_ptext_show  x="100"  y="180"  size="160"  color="0xffffff"  time="3000"  text="Vaporwave"  anim="false"  face="cursive"  edge="undefined"  shadow="undefined"  ]
+[tb_ptext_show  x="60"  y="170"  size="160"  color="0xffffff"  time="3000"  text="Vaporwave"  anim="false"  face="sans-serif,'メイリオ'"  edge="undefined"  shadow="undefined"  ]
 [mask  time="2500"  effect="fadeIn"  color="0x000000"  ]
 [tb_ptext_hide  time="1"  ]
 [bg  time="1"  method="crossfade"  storage="カウンター.jpg"  ]
@@ -473,8 +488,12 @@ CDがキュルキュルと音を鳴らし、回り始める。[l][r]
 
 [_tb_end_text]
 
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[mask  time="2000"  effect="fadeIn"  color="0x000000"  ]
+[stopbgm  time="1000"  ]
+[tb_title  name="Smoke"  ]
+[tb_hide_message_window  ]
 [cm  ]
+[jump  storage="God.ks"  target=""  ]
 [bg  time="1000"  method="crossfade"  storage="gure-.png"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [cm  ]
@@ -519,3 +538,5 @@ Titleボタンからタイトルにお戻りください。[l][r]
 [_tb_end_text]
 
 [s  ]
+*undefined
+

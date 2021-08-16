@@ -1,5 +1,9 @@
 [_tb_system_call storage=system/_Goldfish.ks]
 
+*start
+
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_ptext_hide  time="1000"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=2 ]
@@ -20,7 +24,7 @@
 [_tb_end_text]
 
 [playse  volume="70"  time="1000"  buf="0"  storage="階段降りる.ogg"  ]
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[mask  time="3000"  effect="fadeIn"  color="0x000000"  ]
 [cm  ]
 [stopbgm  time="1000"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
@@ -131,22 +135,22 @@
 
 [_tb_end_text]
 
-[playse  volume="60"  time="1000"  buf="0"  storage="階段上る.ogg"  ]
+[playse  volume="60"  time="1000"  buf="0"  storage="asioto2.ogg"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [wse  ]
-[cm  ]
-[bg  time="3000"  method="crossfade"  storage="gure-.png"  ]
+[bg  time="2000"  method="crossfade"  storage="gure-.png"  ]
 [tb_hide_message_window  ]
+[cm  ]
 [stopse  time="1000"  buf="0"  ]
 [mask_off  time="1500"  effect="fadeOut"  ]
-[tb_ptext_show  x="165"  y="200"  size="180"  color="0xffffff"  time="3000"  face="cursive"  text="Goldfish"  anim="false"  edge="undefined"  shadow="undefined"  ]
+[tb_ptext_show  x="165"  y="200"  size="180"  color="0xffffff"  time="3000"  face="sans-serif,'メイリオ'"  text="Goldfish"  anim="false"  edge="undefined"  shadow="undefined"  ]
 [mask  time="2500"  effect="fadeIn"  color="0x000000"  ]
 [tb_ptext_hide  time="1"  ]
 [bg  time="1"  method="crossfade"  storage="カウンター.jpg"  ]
 [playbgm  volume="70"  time="2000"  loop="true"  storage="AnyConv.com__路地裏カセットテープ.ogg"  fadein="true"  ]
 [tb_title  name="Goldfish"  ]
 [tb_show_message_window  ]
-[mask_off  time="1000"  effect="fadeOut"  ]
+[mask_off  time="2000"  effect="fadeOut"  ]
 [tb_start_text mode=2 ]
 ビルの地下に隠されていたそこは、怪しげなレストランだった。[l][r]
 天井は低く、照明は空間全体を照らす程度に留められている。[l][r]
@@ -552,7 +556,7 @@
 [cm  ]
 [tb_start_text mode=2 ]
 「と言っても、[l][r]
-俺たちが生まれたときくらいに流行ってたらしい電子タバコだけどな。[l][r]
+オレたちが生まれたときくらいに流行ってたらしい電子タバコだけどな。[l][r]
 リキッド残してあったろ」[r][l][r]
 「たしか棚の中に置いてあったはずだが……。[l][r]
 ああ、あったあった」[r][l][r]
@@ -635,7 +639,7 @@
 途端、喉が焼ける。[l][r]
 [_tb_end_text]
 
-[playse  volume="70"  time="1000"  buf="0"  storage="咽る.ogg"  ]
+[playse  volume="40"  time="1000"  buf="0"  storage="咽る.ogg"  ]
 [cm  ]
 [tb_start_text mode=2 ]
 たまらずに咽る。[r][l][r]
@@ -801,5 +805,6 @@
 
 [tb_title  name="Smoke"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_hide_message_window  ]
 [cm  ]
 [jump  storage="Vaporwave.ks"  target=""  ]

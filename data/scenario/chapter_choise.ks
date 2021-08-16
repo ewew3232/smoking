@@ -1,0 +1,10 @@
+[_tb_system_call storage=system/_chapter_choise.ks]
+
+[bg  time="1000"  method="crossfade"  storage="gure-.png"  ]
+[tb_ptext_show  x="225"  y="20"  size="80"  color="0xffffff"  time="1000"  text="Chapter&nbsp;Jump"  face="sans-serif,'メイリオ'"  anim="false"  edge="undefined"  shadow="undefined"  ]
+[glink  color="black"  storage="scene1.ks"  size="28"  text="Opening"  target="*start"  x="360"  y="130"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="Goldfish.ks"  size="28"  text="Golffish"  target="*start"  x="600"  y="215"  ]
+[glink  color="black"  storage="Vaporwave.ks"  size="28"  text="Vaporwave"  target="*start"  x="600"  y="315"  ]
+[glink  color="black"  storage="God.ks"  size="28"  text="God"  target="*start"  x="600"  y="415"  ]
+[glink  color="black"  storage="SmokeAnd.ks"  size="28"  text="Smoke_&"  target="*Start"  x="600"  y="515"  ]
+[s  ]
