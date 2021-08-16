@@ -745,7 +745,7 @@
 
 [_tb_end_text]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="doa-sime.ogg"  ]
+[playse  volume="60"  time="1000"  buf="0"  storage="doa-sime.ogg"  ]
 [wse  ]
 [wait  time="300"  ]
 [tb_start_text mode=2 ]

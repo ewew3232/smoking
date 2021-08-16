@@ -3,6 +3,7 @@
 *Start
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_hide_message_window  ]
 [tb_ptext_hide  time="1000"  ]
 [bg  time="1000"  method="crossfade"  storage="gure-.png"  ]
 [tb_ptext_show  x="160"  y="220"  size="80"  color="0xffffff"  time="1"  face="sans-serif,'メイリオ'"  text="2050年&nbsp;04月&nbsp;13日"  ]
