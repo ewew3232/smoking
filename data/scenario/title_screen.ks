@@ -7,11 +7,11 @@
 [tb_keyconfig  flag="0"  ]
 [tb_hide_message_window  ]
 [bg  storage="紫煙.png"  ]
-[tb_image_show  time="1500"  storage="default/title_waifu2x_art_noise3_scale_tta_1.png"  width="440"  height="200"  x="240"  y="160"  _clickable_img=""  ]
+[tb_image_show  time="1500"  storage="default/title_waifu2x_art_noise3_scale_tta_1.png"  width="440"  height="200"  x="240"  y="160"  _clickable_img=""  name="img_5"  ]
 *title
 
-[glink  color="black"  text="START"  x="372"  y="370"  size="30"  target="*start"  ]
-[glink  color="black"  text="LOAD"  x="381"  y="470"  size="30"  target="*load"  ]
+[glink  color="black"  text="START"  x="358"  y="370"  size="30"  target="*start"  width="120"  ]
+[glink  color="black"  text="LOAD"  x="358"  y="470"  size="30"  target="*load"  width="120"  ]
 [s  ]
 *start
 

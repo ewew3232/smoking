@@ -4,10 +4,10 @@
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [tb_ptext_hide  time="1000"  ]
+[tb_show_message_window  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [playbgm  volume="65"  time="1000"  loop="true"  storage="May_not.ogg"  ]
 [bg  time="1000"  method="crossfade"  storage="職員室2.jpg"  ]
-[tb_show_message_window  ]
 [tb_start_text mode=2 ]
 [delay speed=60]良き生徒とは、匂いのしない者です。[r][l][r]
 
@@ -35,6 +35,7 @@
 [bg  time="1000"  method="crossfade"  storage="BW.png"  ]
 [mask_off  time="2000"  effect="fadeOut"  ]
 [bg  time="3000"  method="crossfade"  storage="smoke.png"  ]
+[wait  time="1000"  ]
 [mask  time="2500"  effect="fadeIn"  color="0x000000"  ]
 [tb_ptext_hide  time="1"  ]
 [tb_show_message_window  ]
@@ -267,7 +268,7 @@
 [cm  ]
 [bg  time="1000"  method="crossfade"  storage="空からの景色　駅周辺.jpg"  ]
 [tb_start_text mode=2 ]
-視線を下に向けると、東京の街が一望できる。[l][r]
+下を向けば、東京の街が一望できる。[l][r]
 思えば、上から眺めるのは初めてかもしれない。[l][r]
 駅を中心に建物がずらりと続いている。[l][r]
 高さはないが、とにかく数が多い。[l][r]
@@ -293,7 +294,7 @@
 [wse  ]
 [tb_start_text mode=2 ]
 1月に種を蒔き、春ごろに育った苗を畑に移す。[l][r]
-6月に収穫をしたら、一月ほど乾燥させて完成のようだ。[l][r]
+6月に収穫をしたら、1か月ほど乾燥させて完成のようだ。[l][r]
 栽培自体は案外簡単なのかもしれない。[r][l][r]
 ノートはひとまず鞄に入れておこう。[l][r]
 [_tb_end_text]
@@ -316,7 +317,7 @@
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=2 ]
 窓からは西日が差し込んでいた。[l][r]
-着地したときに舞った埃がよく見える。[l][r]
+着地した時に舞った埃がよく見える。[l][r]
 四畳一間の間取りで、家具は簡易ベッドのみ。[l][r]
 エアコンは付いていたが、使うにはフィルターを掃除しないとダメだろう。[l][r]
 キッチンとシャワールームも備えられているようだ。[l][r]
@@ -334,8 +335,8 @@
 
 *分岐
 
-[glink  color="black"  storage="scene1.ks"  size="20"  text="→　先に泊まれる場所を探そう。【未実装】"  x="270"  y="200"  width=""  height=""  _clickable_img=""  target="*寄煙恋"  ]
-[glink  color="black"  storage="scene1.ks"  size="20"  text="→　先に夕飯を食べよう。"  x="270"  y="300"  target="*goldfish"  ]
+[glink  color="black"  storage="scene1.ks"  size="24"  text="→　先に泊まれる場所を探そう。【未実装】"  x="245"  y="200"  width="400"  height=""  _clickable_img=""  target="*寄煙恋"  ]
+[glink  color="black"  storage="scene1.ks"  size="24"  text="→　先に夕飯を食べよう。"  x="245"  y="300"  target="*goldfish"  width="400"  ]
 [s  ]
 *寄煙恋
 
