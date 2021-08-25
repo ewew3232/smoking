@@ -4,10 +4,10 @@
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [tb_ptext_hide  time="1000"  ]
-[tb_show_message_window  ]
-[mask_off  time="1000"  effect="fadeOut"  ]
 [playbgm  volume="65"  time="1000"  loop="true"  storage="May_not.ogg"  ]
 [bg  time="1000"  method="crossfade"  storage="職員室2.jpg"  ]
+[tb_show_message_window  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=2 ]
 [delay speed=60]良き生徒とは、匂いのしない者です。[r][l][r]
 
@@ -294,7 +294,7 @@
 [wse  ]
 [tb_start_text mode=2 ]
 1月に種を蒔き、春ごろに育った苗を畑に移す。[l][r]
-6月に収穫をしたら、1か月ほど乾燥させて完成のようだ。[l][r]
+6月に収穫をしたら、1ヶ月ほど乾燥させて完成のようだ。[l][r]
 栽培自体は案外簡単なのかもしれない。[r][l][r]
 ノートはひとまず鞄に入れておこう。[l][r]
 [_tb_end_text]

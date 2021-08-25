@@ -1,4 +1,3 @@
-[hidemenubutton] 
 [preload  storage="./data/bgimage/階段.jpg"  ]
 [preload  storage="./data/bgimage/gure-.png"  ]
 [preload  storage="./data/bgimage/kyuukeisitu.jpg"  ]
@@ -8,4 +7,4 @@
 [preload  storage="./data/bgimage/zikka.jpg"  ]
 [preload  storage="./data/bgimage/souko.jpg"  ]
 [preload  storage="./data/bgimage/菜園夕方.jpg"  ]
-[return] 
+[return]

@@ -18,7 +18,8 @@
 [bg  time="1000"  method="crossfade"  storage="階段.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=2 ]
-部屋と屋上の鍵を忘れずに閉めて、今度は長い階段を下りていく。[l][r]
+俺は部屋と屋上の鍵を忘れずに閉めた。[l][r]
+今度は長い階段を下りていく。[l][r]
 リズムよく足を動かすと、段々と急ぎ足になっていった。[l][r]
 
 [_tb_end_text]
