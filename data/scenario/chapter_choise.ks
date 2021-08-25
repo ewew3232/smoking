@@ -7,5 +7,5 @@
 [glink  color="black"  storage="Vaporwave.ks"  size="28"  text="Vaporwave"  target="*start"  x="600"  y="315"  width="200"  height="20"  ]
 [glink  color="black"  storage="God.ks"  size="28"  text="God"  target="*start"  x="600"  y="415"  width="200"  height="20"  ]
 [glink  color="black"  storage="SmokeAnd.ks"  size="28"  text="Smoke_&"  target="*Start"  x="600"  y="515"  width="200"  height="20"  ]
-[glink  color="black"  storage="yosuru_koi.ks"  size="28"  text="煙に寄せる恋"  x="50"  y="215"  width="200"  height="20"  target="*start"  ]
+[glink  color="black"  storage="yosuru_koi.ks"  size="28"  text="煙に寄する恋"  x="50"  y="215"  width="200"  height="20"  target="*start"  ]
 [s  ]
