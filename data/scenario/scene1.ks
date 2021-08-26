@@ -335,12 +335,12 @@
 
 *分岐
 
-[glink  color="black"  storage="scene1.ks"  size="24"  text="→　先に泊まれる場所を探そう。【未実装】"  x="245"  y="200"  width="400"  height=""  _clickable_img=""  target="*寄煙恋"  ]
+[glink  color="black"  storage="scene1.ks"  size="24"  text="→　先に泊まれる場所を探そう。"  x="245"  y="200"  width="400"  height=""  _clickable_img=""  target="*寄煙恋"  ]
 [glink  color="black"  storage="scene1.ks"  size="24"  text="→　先に夕飯を食べよう。"  x="245"  y="300"  target="*goldfish"  width="400"  ]
 [s  ]
 *寄煙恋
 
-[jump  storage="scene1.ks"  target="*分岐"  ]
+[jump  storage="yosuru_koi.ks"  target="*start"  ]
 *goldfish
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
