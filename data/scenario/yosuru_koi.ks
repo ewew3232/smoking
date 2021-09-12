@@ -1050,11 +1050,7 @@
 [wait time = 1500][delay speed=100]まずは箒を買わないと。[delay speed=60][l][r]
 [_tb_end_text]
 
+[mask  time="3000"  effect="fadeIn"  color="0x000000"  ]
 [cm  ]
-[tb_start_text mode=2 ]
-こちらのルートはここまで。[l][r]
-チャプター選択画面に移ります。[l][r]
-[_tb_end_text]
-
 [tb_hide_message_window  ]
-[jump  storage="chapter_choise.ks"  target=""  ]
+[jump  storage="enpahyoubyou.ks"  target=""  ]
