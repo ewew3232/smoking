@@ -7,7 +7,7 @@
 [playbgm  volume="65"  time="1000"  loop="true"  storage="May_not.ogg"  ]
 [bg  time="1000"  method="crossfade"  storage="職員室2.jpg"  ]
 [tb_show_message_window  ]
-[mask_off  time="1000"  effect="fadeOut"  ]
+[mask_off  time="3000"  effect="fadeOut"  ]
 [tb_start_text mode=2 ]
 [delay speed=60]良き生徒とは、匂いのしない者です。[r][l][r]
 

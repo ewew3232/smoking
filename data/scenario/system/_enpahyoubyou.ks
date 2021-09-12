@@ -1,4 +1,3 @@
-[hidemenubutton] 
 [preload  storage="./data/bgimage/bl.png"  ]
 [preload  storage="./data/bgimage/ash.png"  ]
 [preload  storage="./data/bgimage/空からの景色　駅周辺.jpg"  ]
@@ -12,4 +11,4 @@
 [preload  storage="./data/bgimage/kaatenyoru.png"  ]
 [preload  storage="./data/bgimage/haiao.png"  ]
 [preload  storage="./data/bgimage/haiao2.png"  ]
-[return] 
+[return]

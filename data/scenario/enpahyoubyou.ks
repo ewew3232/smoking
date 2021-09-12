@@ -1,7 +1,5 @@
-[_tb_system_call storage=system/_preview.ks ]
+[_tb_system_call storage=system/_enpahyoubyou.ks]
 
-[mask time=10]
-[mask_off time=10]
 *start
 
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
@@ -659,7 +657,7 @@
 残されたのは、この部屋の鍵。[l][r]
 そして、無骨な黒縁の眼鏡。[l][r]
 それを手に取り、目に掛けた。[r][l][r]
-やっぱり、[l]ぼやけて何も見えなかった。[r][l][r]
+やっぱり、[l]ぼやけて何も見えない。[r][l][r]
 まだ身体に気怠さが残っている。[l][r]
 [delay speed=100] 俺は、そっと眼鏡を外し、[l]また眠りについた……。[delay speed=60][l][r]
 [_tb_end_text]

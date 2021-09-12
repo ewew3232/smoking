@@ -78,3 +78,4 @@
 ;defaultLinkColor=0x0080ff
 ;defaultLinkOpacity=64
 ;vertical=false
+;autoModePageWaits.medium=1500
