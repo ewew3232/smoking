@@ -30,7 +30,7 @@
 [stopbgm  time="1000"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=2 ]
-それは、ビルの入り口に辿り着き、外に出ようとした時だった。[r][l][r]
+[delay speed=60]それは、ビルの入り口に辿り着き、外に出ようとした時だった。[r][l][r]
 
 [_tb_end_text]
 
@@ -148,7 +148,7 @@
 [mask  time="2500"  effect="fadeIn"  color="0x000000"  ]
 [tb_ptext_hide  time="1"  ]
 [bg  time="1"  method="crossfade"  storage="カウンター.jpg"  ]
-[playbgm  volume="70"  time="2000"  loop="true"  storage="AnyConv.com__路地裏カセットテープ.ogg"  fadein="true"  ]
+[playbgm  volume="70"  time="2000"  loop="true"  storage="路地裏カセットテープ.ogg"  fadein="true"  ]
 [tb_title  name="Goldfish"  ]
 [tb_show_message_window  ]
 [mask_off  time="2000"  effect="fadeOut"  ]
@@ -413,7 +413,7 @@
 [mask  time="2000"  effect="fadeIn"  color="0x000000"  ]
 [cm  ]
 [stopbgm  time="1000"  ]
-[playbgm  volume="70"  time="1000"  loop="true"  storage="AnyConv.com__静寂に煌めく.ogg"  ]
+[playbgm  volume="70"  time="1000"  loop="true"  storage="静寂に煌めく.ogg"  ]
 [mask_off  time="2000"  effect="fadeOut"  ]
 [tb_start_text mode=2 ]
 二人と話しながら食事を進めていると、[l][r]

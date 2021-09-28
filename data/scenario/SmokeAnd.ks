@@ -18,7 +18,7 @@
 [tb_show_message_window  ]
 [mask_off  time="3000"  effect="fadeOut"  ]
 [tb_start_text mode=2 ]
-目が覚めてすぐに確信をした、[l]今日がタバコを吸う日だと。[r][l][r]
+[delay speed=60]目が覚めてすぐに確信をした、[l]今日がタバコを吸う日だと。[r][l][r]
 
 水を飲むよりも先に爺さんの部屋に行く。[l][r]
 俺は押し入れから、ジャケットを取り出した。[l][r]
@@ -648,6 +648,7 @@
 [_tb_end_text]
 
 [cm  ]
+[tb_cg  id="ENKA"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="gure-.png"  ]
@@ -698,7 +699,15 @@ URL|https://nanamiyuki.com/[l][r]
 
 [cm  ]
 [tb_start_text mode=2 ]
-Titleボタンからタイトルにお戻りください。[l][r]
+【製作/著作】[l][r]
+◆IWAKURA...[l][r]
+
 [_tb_end_text]
 
-[s  ]
+[cm  ]
+[tb_start_text mode=2 ]
+タイトル画面に戻ります。[l][r]
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[jump  storage="title_screen.ks"  target="*BOF"  ]

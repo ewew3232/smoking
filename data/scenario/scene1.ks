@@ -190,7 +190,7 @@
 [tb_ptext_hide  time="1000"  ]
 [cm  ]
 [bg  time="1000"  method="crossfade"  storage="ビル群.jpg"  ]
-[playbgm  volume="30"  time="1000"  loop="true"  storage="AnyConv.com__YY風船.ogg"  ]
+[playbgm  volume="30"  time="1000"  loop="true"  storage="YY風船.ogg"  ]
 [tb_show_message_window  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_start_text mode=2 ]

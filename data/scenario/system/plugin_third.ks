@@ -2,3 +2,5 @@
 
 [plugin name="tb_title"]
 
+[plugin name="waapi"]
+

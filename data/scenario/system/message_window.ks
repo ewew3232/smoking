@@ -21,43 +21,43 @@
 		
 
             
-            [button role="save" graphic="button2/save2.gif" x="40" y="550" width="100" height="45" visible="false" ]
+            [button role="save" graphic="save2.png" x="60" y="540" width="100" height="45" visible="false" ]
             
 
         
 
             
-            [button role="load" graphic="button2/load2.gif" x="160" y="550" width="100" height="45" visible="false" ]
+            [button role="load" graphic="load2.png" x="200" y="540" width="100" height="45" visible="false" ]
             
 
         
 
             
-            [button role="title" graphic="button2/title2.gif" x="640" y="550" width="100" height="45" visible="false" ]
+            [button role="sleepgame" graphic="sleep2.png" x="620" y="540" width="100" height="45" visible="false" storage="config.ks"]
             
 
         
 
             
-            [button role="skip" graphic="button2/skip2.gif" x="280" y="550" width="100" height="45" visible="false" ]
+            [button role="auto" graphic="auto2.png" x="480" y="540" width="100" height="45" visible="false" ]
             
 
         
 
             
-            [button role="auto" graphic="button2/auto2.gif" x="400" y="550" width="100" height="45" visible="false" ]
+            [button role="skip" graphic="skip2.png" x="340" y="540" width="100" height="45" visible="false" ]
             
 
         
 
             
-            [button role="sleepgame" graphic="button2/sleep2.gif" x="520" y="550" width="100" height="45" visible="false" storage="config.ks"]
+            [button role="title" graphic="title2.png" x="760" y="540" width="100" height="45" visible="false" ]
             
 
         
 
 		;CG・回想用の共通項目
-		[eval exp="sf._tb_cg_noimage='noimage.png'" ]
-		[eval exp="sf._tb_replay_noimage='noimage.png'" ]
+		[eval exp="sf._tb_cg_noimage='toumei_transparent.png'" ]
+		[eval exp="sf._tb_replay_noimage='toumei_transparent.png'" ]
 
 		

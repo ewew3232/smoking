@@ -2,4 +2,6 @@
 
 ;=========変数宣言部分 
 [iscript] 
+f['password1']=''; 
+f['password2']=''; 
 [endscript] 
