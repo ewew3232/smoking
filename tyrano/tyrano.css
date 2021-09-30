@@ -485,7 +485,7 @@ body{
 }
 
 .remodal{
-  position: absolute;
+  position: relative;
   bottom: 0px;           
   z-index: 10; 
 }
