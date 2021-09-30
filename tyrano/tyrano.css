@@ -484,9 +484,3 @@ body{
     z-index:9999999;
 }
 
-.remodal{
-  position: relative;
-  bottom: 0px;           
-  z-index: 10; 
-}
-
