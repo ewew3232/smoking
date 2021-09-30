@@ -160,7 +160,7 @@
   border: 0;
   outline: 0;
 }
-
+/*薄緑OKボタン*/
 .remodal-confirm {
   color: #fff;
   background: #81c784;
@@ -170,7 +170,7 @@
 .remodal-confirm:focus {
   background: #66bb6a;
 }
-
+/*薄赤キャンセルボタン*/
 .remodal-cancel {
   color: #fff;
   background: #e57373;
